@@ -1,0 +1,13 @@
+{
+  "presets": [
+    // it means babel-preset-env
+    ["env", {
+      "targets": {
+        "browser": [
+          "last 5 versions",
+          "ie >= 8"
+        ]
+      }
+    }]
+  ]
+}
